@@ -24,7 +24,7 @@ function setupElasticMenu() {
       pathArr.push('L' + (svgWidth), 0);
       //
       //
-      svgPath.attr('d', pathArr.join(','));
+      svgPath.attr('d', pathArr.join(' '));
       //svgPath.attr('d', pathStr);
    }
    //----------------------------------------------------------------
